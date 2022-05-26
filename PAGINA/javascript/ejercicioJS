@@ -1,0 +1,40 @@
+/* */
+/*recibo como parametro un arreglo
+* tengo que devolver  solo a los usuarios que hayan enviado su aplicación, para esto puedes tomar como referencia la propiedad application de cada usuario.
+DS=nuevo arreglo con los usuarios que aplicaron
+*/
+ 
+ users =[
+  { name: 'Erik', email: 'erik@academlo.com', channel: 'youtube', application: null },
+  { name: 'Georg', email: 'georg@gmail.com', channel: 'facebook', application: { country: 'Mexico', state: 'Nuevo León' }},
+  { name: 'Daniela', email: 'daniela@gmail.com', channel: 'youtube', application: { country: 'Colombia', state: 'Bogotá' }}
+];
+function getApplications(users){
+  nuevoArr = {};
+guardarA =[];
+
+for(let i = 0; i < users.length; i++){
+  if(users[i].application !== null){
+    
+       guardarA.push(users[i]);  
+  } 
+} return guardarA;
+  
+};
+
+
+
+
+getApplications(users);
+/*
+function getMultiples(number, limit) {
+let total = {};
+  let arreglo =[];
+      if(number < limit){
+        total = number
+      }
+  console.log(total);
+};
+
+getMultiples(20,100);
+*/

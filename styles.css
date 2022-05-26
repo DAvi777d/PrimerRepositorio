@@ -1,0 +1,32 @@
+.red-text{
+    color:blue;
+    font-family: 'Smooch', cursive;;
+    font-weight:bold;
+}
+.tittle{
+ color:black;  
+ padding-right:0px; 
+ margin: 0;
+
+}
+p{
+    display: block;
+    padding-top: 2px;
+   padding-bottom: 2px; 
+   /*font-size: 2rem;*/
+}
+
+.blue{
+    color:blue;
+    padding-right: 4px;
+}
+.subtitle{
+    color:#969696;
+    margin:0;
+}
+
+.box{
+    border: solid #969696;
+    display:inline-block;
+    margin-top: 2px;
+}

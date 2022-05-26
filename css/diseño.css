@@ -1,6 +1,0 @@
-.background{
-    background-image: url(../css/imagenes/night.jpg);
-    background-repeat: no-repeat; /*con esto mi background no se repite en miniatura */
-    background-size: cover;
-    height: 100%;
-}
